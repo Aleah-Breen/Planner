@@ -1,0 +1,152 @@
+/* Background Styling */
+
+
+/* Login Container */
+.login-container {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    height: 100vh;
+    background: linear-gradient(to bottom, #e16ebb, #593c92);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Login Box */
+.login-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 400px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem 1rem;
+}
+
+.input-container .icon {
+    font-size: 1.2rem;
+    color: #2e026e;
+    margin-right: 0.5rem;
+}
+
+.input-container input {
+    background: none;
+    border: none;
+    color: #2e026e;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    font-weight: 500;
+}
+
+.input-container input::placeholder {
+    color: #5a5a5a;
+    opacity: 0.8;
+}
+
+/* Extra Options */
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #2e026e;
+}
+
+.extra-options a {
+    color: #2e026e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-button {
+    background: #2e026e;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background: #260159;
+}
+
+/* Register Link */
+.login-box p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #2e026e;
+}
+
+.login-box p a {
+color: white;
+text-decoration: none;
+    font-weight: bold;
+}
+
+.login-box p a:hover {
+    text-decoration: underline;
+}
+/* Switch Button */
+.cat-image-login {
+    width: 250px;
+    position: absolute;
+    top: 75%;
+    left: 900px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.paw-planner-image {
+    width: 300px;
+    position: absolute;
+    top: 11.5%;
+    left: 41%;
+    transform: translateY(-50%);
+
+    z-index: 1
+}
+.switch-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.switch-button:hover {
+    color: #ffffff;
+}
